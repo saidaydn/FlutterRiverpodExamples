@@ -17,11 +17,11 @@ class RandomValuePage extends ConsumerWidget {
     final randomValue = ref.watch(randomValueProvider);
     return Scaffold(
       appBar: AppBar(
-        title: const  Text('Rastgele Değer'),
+        title: const  Text('Random Value'),
       ),
       body: Center(
         child: Text(
-          'Rastgele Değer: $randomValue',
+          'Random Value: $randomValue',
           style: const  TextStyle(fontSize: 24),
         ),
       ),
